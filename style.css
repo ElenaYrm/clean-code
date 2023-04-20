@@ -147,3 +147,11 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
   display:none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
