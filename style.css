@@ -6,13 +6,13 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
   list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -165,7 +165,7 @@ button:hover {
 
 /* Edit Task */
 .tasks__input {
-  display:none
+  display: none
 }
 
 .tasks__edit-btn {
@@ -173,9 +173,9 @@ button:hover {
 }
 
 .tasks__item_edit .tasks__input {
-  display:inline-block;
+  display: inline-block;
 }
 
 .tasks__item_edit .tasks__name {
-  display:none;
+  display: none;
 }
