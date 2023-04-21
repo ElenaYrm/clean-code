@@ -4,14 +4,17 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 ul {
   margin:0;
   padding: 0px;
   list-style: none;
 }
+
 input,button{
   outline:none;
 }
+
 button {
   background: none;
   border: 0px;
@@ -21,9 +24,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 .visually-hidden {
   position: absolute;
   width: 0;
@@ -31,6 +36,7 @@ button:hover {
   opacity: 0;
   pointer-events: none;
 }
+
 /* Matrix Style */
 .matrix {
   width: 500px;
@@ -38,24 +44,30 @@ button:hover {
   display: block;
   text-align: right;
 }
+
 .matrix__img {
   width: 100%;
 }
+
 .matrix__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .matrix {
     text-align: center;
   }
+
 }
+
 /* Todos Style */
 .todos {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todos__title {
   color: #333;
   font-weight: 700;
@@ -65,6 +77,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 /* New Task */
 .new-todo {
   padding-top: 20px;
@@ -72,10 +85,12 @@ button:hover {
   justify-content: space-between;
   align-self: center;
 }
+
 .new-todo__label {
   display: block;
   width: 85%;
 }
+
 .tasks__input, .new-todo__input {
   width: 56%;
   display: inline-block;
@@ -91,22 +106,25 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .new-todo__input {
   width: 100%;
 }
+
 .tasks__input:focus, .new-todo__input:focus {
   color: #333;
 }
+
 /* Task list */
 .tasks__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
+
 .tasks__item > * {
   vertical-align: middle;
 }
@@ -114,22 +132,27 @@ button:hover {
 .tasks__checkbox {
   margin: 0 10px;
 }
+
 .tasks__label {
   box-sizing: border-box;
   font-size: 18px;
   width: 330px;
 }
+
 .tasks__input {
   width: 100%
 }
+
 .tasks__name {
   padding-left: 10px;
 }
+
 .tasks__delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .tasks__delete-icon:hover {
   transform: rotateZ(0);
 }
@@ -144,6 +167,7 @@ button:hover {
 .tasks__input {
   display:none
 }
+
 .tasks__edit-btn {
   margin-left: auto;
 }
