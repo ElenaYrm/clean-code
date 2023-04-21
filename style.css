@@ -11,7 +11,8 @@ ul {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -91,7 +92,8 @@ button:hover {
   width: 85%;
 }
 
-.tasks__input, .new-todo__input {
+.tasks__input,
+.new-todo__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -111,7 +113,8 @@ button:hover {
   width: 100%;
 }
 
-.tasks__input:focus, .new-todo__input:focus {
+.tasks__input:focus,
+.new-todo__input:focus {
   color: #333;
 }
 
